@@ -222,7 +222,7 @@ waiting for 10 seconds...
 
 Below, to perform simulation. Before the following simulation, your VM environment with multiple VM instances should already be constructed.
 
-Some comments are given inside /* */
+Some comments are given inside {{{/* */}}}
 {{{
 [user@frontend-server CheckpointSim]# ./restart2.sh
 processing prop.config /*configuration file*/
