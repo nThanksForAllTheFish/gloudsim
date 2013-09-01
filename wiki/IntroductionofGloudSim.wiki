@@ -8,7 +8,7 @@ Google released a large-scale real production trace (http://code.google.com/p/go
 
 Based on the Google trace, we designed and implemented a simulation system to reproduce the Google jobs, tasks, events, and resource utilization. Our objective is to support and ease the further research on cloud computing based on the Google trace. This simulation system is called Gloudsim (Google trace based Cloud Simulation System). The whole system is coded in pure Java for high portability. We tried best to make the whole simulation as close as possible to the real situation. For example, we designed a method by executing a Java program with loaded file size to simulate the “REAL” Google task execution with real memory size. We use BLCR to checkpoint and restart tasks at run time. XEN serves as the hypervisor to manage the VM instances, which run millions of Google tasks.
 
-*HINT*: Using GloudSim, you don't need to download and study Google's original trace any more (unless you want to do more what GloudSim can help you). You can find the sample job object files in the simFailureTrace directory.
+*HINT*: Using GloudSim, you don't need to download and study Google's original trace any more (unless you want to do more than what GloudSim can help you). You can find the sample job object files in the simFailureTrace directory.
 
 _What can GloudSim do for you?_
 
