@@ -35,6 +35,7 @@ fr.imag.mescal.gloudsim.util: the utility package
 }}}
 
 *Hint*: You can make use of the ready-to-use sample job files to perform numerical simulation for simplicity. See fr.imag.mescal.gloudsim.numeric.
+
 *Hint*: You can get the contents of sample jobs using fr.imag.mescal.gloudsim.test.ReadJobTrace.java 
 
   * lib: the library package, which is the archive of the GloudSim.
