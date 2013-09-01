@@ -1,0 +1,9 @@
+#summary This page introduces the structure of source code package.
+
+= Introduction of Source Code =
+
+  * bin: binary directory
+  * cost: checkpoint cost characterized (in seconds): 
+{{{
+file index, 
+}}}
