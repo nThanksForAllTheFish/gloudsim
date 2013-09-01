@@ -1,7 +1,7 @@
 #summary Here are some snapshots about my simulation and configuration
 #labels configuration,snapshot
 
-= Snapshots =
+= Snapshots of Configuration =
 
 Suppose the physical machines are se017e, se018e, se019e, .....
 Suppose the virtual machines are vm1, vm2, ....., vm56
