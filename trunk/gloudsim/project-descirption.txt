@@ -1,0 +1,10 @@
+Google released a one-month production trace that was produced with hundreds of thousands of jobs running across over 12000 heterogeneous hosts. In order to perform a practical in-depth research based on the trace, it is necessary to construct a close-to-practice simulation system and reproduce the Google job events. By leveraging the Google trace, we devise a distributed cloud simulator based on virtual machines, with three important features. (1) The dynamic changing resource amounts (such as CPU rate and memory size) consumed by the reproduced jobs can be emulated as closely as possible to the real values in the trace. (2) Various types of events (e.g., kill/evict event) can be emulated precisely based on the trace. (3) Our design is able to emulate more complex and useful cases beyond the original trace to adapt to various research demands.
+
+What can GloudSim assist you? 
+On a REAL cluster or a data center (with multiple VM instances you already deployed), GloudSim can help:
+* simulating Jobs, Tasks, Task Failure Events, Task memory utilization
+* queuing tasks when necessary
+* calling BLCR to perform the real checkpoint/restart behaviors, 
+* optimizing checkpoint interval (with implemented Young¡¯s formula)
+* generating a set of log files in course of the simulation, including the true workload to process, the wall-clock time of each task execution, job execution time, queuing length, number of jobs finished over time, etc.
+* analyzing the log files by math tools like computing distribution.
