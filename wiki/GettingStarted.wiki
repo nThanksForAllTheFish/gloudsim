@@ -37,5 +37,5 @@
   * You need sample job files: For simplicity, I already generated the files for you. You could find them in the simFailureTrace directory.  In this directory, jobArrivalTrace.txt records the submission dates of jobs in the Google trace. There are three further sub-directories, single, batch, mix. They just contain corresponding types of jobs. For example, single means in the job, there is only one batchtask. In batch directory, each job has multiple parallel batchtasks (like mapreduce). "mix" means the mixture of the two types of jobs. 
 (BatchTask actually refers to one TASK mentioned in the paper. A batchtask contains a chain of subtasks, each of which refers to an uninterrupted execution duration.)
   * You need to modify prop.config file for your environment. For example, how many physical machines to use.
-==4. Start the simulation using _JobEmulator.java_ class, which is the entry point.==
+==4. Start the simulation using _JobEmulator\.java_ class, which is the entry point.==
 *Hint* Some useful scripts can be found in the package.==
